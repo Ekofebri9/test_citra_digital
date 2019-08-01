@@ -31,6 +31,6 @@ func main() {
 		}
 	}
 	hurufHidup = removeDuplicates(hurufHidup)
-	fmt.Println(hurufHidup)
-	fmt.Println(hurufMati)
+	fmt.Println("Huruf Hidup : ", len(hurufHidup))
+	fmt.Println("Huruf Mati : ", len(hurufMati))
 }
